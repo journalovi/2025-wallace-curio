@@ -1,0 +1,32 @@
+
+stages:
+  - test
+  - deploy
+
+pages:
+  stage: deploy
+  script:
+    - ./builddocs.sh Curio-Docs public
+  artifacts:
+    paths:
+      - public
+  when: always
+  publish: public
+  tags:
+   - macOS
+
+  only:
+   - merge_requests
+   - tags
+
+
+test-macOS:
+  stage: test
+
+  script:
+    - xcrun coremlcompiler compile Sources/Curio/Resources/all-MiniLM-L6-v2/all-MiniLM-L6-v2.mlpackage/ Sources/Curio/Resources
+    - xcodebuild -scheme Curio -configuration Debug -destination "platform=macOS" test
+
+  tags:
+    - macOS
+
