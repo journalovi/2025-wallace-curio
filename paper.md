@@ -38,6 +38,14 @@ date: 6 December 2024
 bibliography: paper.bib
 ---
 
+::: {.callout-important appearance="simple"}
+## Under Review {.unnumbered}
+This paper is [under review](https://www.journalovi.org/under-review.html) on the experimental
+track of the [Journal of Visualization and Interaction](https://www.journalovi.org/).
+See the [reviews](https://github.com/journalovi/2025-wallace-curio/issues?q=label%3Areview) and
+[issues](https://github.com/journalovi/2025-wallace-curio/issues) for this paper.
+:::
+
 # Summary
 
 Social media constitutes a rich and influential source of information for qualitative researchers. However, while computational techniques like topic modeling are ubiquitous in the machine learning community they are less frequently used by qualitative researchers who often lack the programming skills required to put them to use in their own work. There is therefore an opportunity to explore how computational tools can be designed to align with the existing workflows and capabilities of qualitative researchers, using visual interfaces and commodity computer hardware. 
