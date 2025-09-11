@@ -1,3 +1,13 @@
+```diff
+! This paper is under review on the experimental track of the Journal of Visualization and Interaction.
+Authors: James R. Wallace (@JimWallace), Mingchung Xia, Adrian Davila, Abhinav Jain, Peter Li, Nicole Mathis, Jean Nordmann, Henry Tian, George Wang, Ali Raza Zaidi, Jason Zhao
+OC: TBD
+AE: TBD
+R1: TBD
+R2: TBD
+R3: TBD
+```
+
 <h2 align="center">Curio</h2>
 
 [![Language](https://img.shields.io/badge/language-Swift-red.svg)](https://swift.org)
